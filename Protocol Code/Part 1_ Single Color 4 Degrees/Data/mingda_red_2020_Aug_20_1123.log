@@ -1,0 +1,367 @@
+0.6255 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.5995 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1680, 1050]. Using actual size
+10.3250 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x143a46710>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1454a1438>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3251 	EXP 	window1: recordFrameIntervals = False
+10.4912 	EXP 	window1: recordFrameIntervals = True
+10.6752 	EXP 	window1: recordFrameIntervals = False
+11.2311 	EXP 	Created ExperimentInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ExperimentInstructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.6943 	EXP 	Created Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='Cross', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.7043 	EXP 	Created polygon_2 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([255.,   0.,   0.]), fillColorSpace='rgb255', fillRGB=array([255.,   0.,   0.]), interpolate=True, lineColor=array([255.,   0.,   0.]), lineColorSpace='rgb255', lineRGB=array([255.,   0.,   0.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2.74, 2.74]), units='deg', vertices=ndarray(...), win=Window(...))
+12.2126 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='thanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+12.2362 	EXP 	ExperimentInstructions: autoDraw = True
+13.6971 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+13.6975 	EXP 	New trial (rep=0, index=0): None
+13.7007 	DATA 	Keypress: space
+13.7147 	EXP 	ExperimentInstructions: autoDraw = False
+14.7124 	EXP 	Cross: autoDraw = True
+14.9124 	EXP 	Cross: autoDraw = False
+15.6460 	EXP 	polygon_2: autoDraw = True
+15.9481 	EXP 	New trial (rep=1, index=0): None
+15.9503 	DATA 	Keypress: b
+15.9640 	EXP 	Cross: autoDraw = False
+15.9640 	EXP 	polygon_2: autoDraw = False
+16.9453 	EXP 	Cross: autoDraw = True
+17.1463 	EXP 	Cross: autoDraw = False
+17.6956 	EXP 	polygon_2: autoDraw = True
+17.9139 	EXP 	New trial (rep=2, index=0): None
+17.9173 	DATA 	Keypress: b
+17.9314 	EXP 	Cross: autoDraw = False
+17.9314 	EXP 	polygon_2: autoDraw = False
+18.9121 	EXP 	Cross: autoDraw = True
+19.1123 	EXP 	Cross: autoDraw = False
+19.8620 	EXP 	polygon_2: autoDraw = True
+19.8980 	EXP 	New trial (rep=3, index=0): None
+19.9001 	DATA 	Keypress: b
+19.9139 	EXP 	Cross: autoDraw = False
+19.9139 	EXP 	polygon_2: autoDraw = False
+20.8959 	EXP 	Cross: autoDraw = True
+21.0954 	EXP 	Cross: autoDraw = False
+21.5458 	EXP 	polygon_2: autoDraw = True
+21.8146 	EXP 	New trial (rep=4, index=0): None
+21.8162 	DATA 	Keypress: b
+21.8299 	EXP 	Cross: autoDraw = False
+21.8299 	EXP 	polygon_2: autoDraw = False
+22.8126 	EXP 	Cross: autoDraw = True
+23.0122 	EXP 	Cross: autoDraw = False
+23.4626 	EXP 	polygon_2: autoDraw = True
+23.7138 	EXP 	New trial (rep=5, index=0): None
+23.7150 	DATA 	Keypress: b
+23.7328 	EXP 	Cross: autoDraw = False
+23.7328 	EXP 	polygon_2: autoDraw = False
+24.7117 	EXP 	Cross: autoDraw = True
+24.9121 	EXP 	Cross: autoDraw = False
+25.5292 	EXP 	polygon_2: autoDraw = True
+25.6476 	EXP 	New trial (rep=6, index=0): None
+25.6498 	DATA 	Keypress: b
+25.6636 	EXP 	Cross: autoDraw = False
+25.6636 	EXP 	polygon_2: autoDraw = False
+26.6452 	EXP 	Cross: autoDraw = True
+26.8452 	EXP 	Cross: autoDraw = False
+27.4621 	EXP 	polygon_2: autoDraw = True
+27.6967 	EXP 	New trial (rep=7, index=0): None
+27.6980 	DATA 	Keypress: b
+27.7121 	EXP 	Cross: autoDraw = False
+27.7121 	EXP 	polygon_2: autoDraw = False
+28.6958 	EXP 	Cross: autoDraw = True
+28.8958 	EXP 	Cross: autoDraw = False
+29.2958 	EXP 	polygon_2: autoDraw = True
+29.5472 	EXP 	New trial (rep=8, index=0): None
+29.5486 	DATA 	Keypress: b
+29.5623 	EXP 	Cross: autoDraw = False
+29.5623 	EXP 	polygon_2: autoDraw = False
+30.5453 	EXP 	Cross: autoDraw = True
+30.7453 	EXP 	Cross: autoDraw = False
+31.2957 	EXP 	polygon_2: autoDraw = True
+31.5137 	EXP 	New trial (rep=9, index=0): None
+31.5152 	DATA 	Keypress: b
+31.5291 	EXP 	Cross: autoDraw = False
+31.5291 	EXP 	polygon_2: autoDraw = False
+32.5124 	EXP 	Cross: autoDraw = True
+32.7124 	EXP 	Cross: autoDraw = False
+33.4453 	EXP 	polygon_2: autoDraw = True
+33.4967 	EXP 	New trial (rep=10, index=0): None
+33.4982 	DATA 	Keypress: b
+33.5120 	EXP 	Cross: autoDraw = False
+33.5120 	EXP 	polygon_2: autoDraw = False
+34.4952 	EXP 	Cross: autoDraw = True
+34.6953 	EXP 	Cross: autoDraw = False
+35.3455 	EXP 	polygon_2: autoDraw = True
+35.5966 	EXP 	New trial (rep=11, index=0): None
+35.5979 	DATA 	Keypress: b
+35.6118 	EXP 	Cross: autoDraw = False
+35.6118 	EXP 	polygon_2: autoDraw = False
+36.5950 	EXP 	Cross: autoDraw = True
+36.7952 	EXP 	Cross: autoDraw = False
+37.1451 	EXP 	polygon_2: autoDraw = True
+37.4142 	EXP 	New trial (rep=12, index=0): None
+37.4163 	DATA 	Keypress: b
+37.4301 	EXP 	Cross: autoDraw = False
+37.4301 	EXP 	polygon_2: autoDraw = False
+38.4116 	EXP 	Cross: autoDraw = True
+38.6120 	EXP 	Cross: autoDraw = False
+39.0783 	EXP 	polygon_2: autoDraw = True
+39.3138 	EXP 	New trial (rep=13, index=0): None
+39.3152 	DATA 	Keypress: b
+39.3287 	EXP 	Cross: autoDraw = False
+39.3287 	EXP 	polygon_2: autoDraw = False
+40.3115 	EXP 	Cross: autoDraw = True
+40.5116 	EXP 	Cross: autoDraw = False
+41.1117 	EXP 	polygon_2: autoDraw = True
+41.3466 	EXP 	New trial (rep=14, index=0): None
+41.3480 	DATA 	Keypress: b
+41.3618 	EXP 	Cross: autoDraw = False
+41.3618 	EXP 	polygon_2: autoDraw = False
+42.3453 	EXP 	Cross: autoDraw = True
+42.5453 	EXP 	Cross: autoDraw = False
+42.9616 	EXP 	polygon_2: autoDraw = True
+43.2304 	EXP 	New trial (rep=15, index=0): None
+43.2317 	DATA 	Keypress: b
+43.2456 	EXP 	Cross: autoDraw = False
+43.2456 	EXP 	polygon_2: autoDraw = False
+44.2285 	EXP 	Cross: autoDraw = True
+44.4284 	EXP 	Cross: autoDraw = False
+45.2282 	EXP 	polygon_2: autoDraw = True
+45.4470 	EXP 	New trial (rep=16, index=0): None
+45.4484 	DATA 	Keypress: b
+45.4622 	EXP 	Cross: autoDraw = False
+45.4622 	EXP 	polygon_2: autoDraw = False
+46.4452 	EXP 	Cross: autoDraw = True
+46.6448 	EXP 	Cross: autoDraw = False
+47.0452 	EXP 	polygon_2: autoDraw = True
+47.3138 	EXP 	New trial (rep=17, index=0): None
+47.3157 	DATA 	Keypress: b
+47.3297 	EXP 	Cross: autoDraw = False
+47.3297 	EXP 	polygon_2: autoDraw = False
+48.3116 	EXP 	Cross: autoDraw = True
+48.5115 	EXP 	Cross: autoDraw = False
+49.1948 	EXP 	polygon_2: autoDraw = True
+49.4298 	EXP 	New trial (rep=18, index=0): None
+49.4315 	DATA 	Keypress: b
+49.4453 	EXP 	Cross: autoDraw = False
+49.4453 	EXP 	polygon_2: autoDraw = False
+50.4285 	EXP 	Cross: autoDraw = True
+50.6279 	EXP 	Cross: autoDraw = False
+51.0947 	EXP 	polygon_2: autoDraw = True
+51.3966 	EXP 	New trial (rep=19, index=0): None
+51.3979 	DATA 	Keypress: b
+51.4116 	EXP 	Cross: autoDraw = False
+51.4116 	EXP 	polygon_2: autoDraw = False
+52.3946 	EXP 	Cross: autoDraw = True
+52.5948 	EXP 	Cross: autoDraw = False
+53.3450 	EXP 	polygon_2: autoDraw = True
+53.6142 	EXP 	New trial (rep=20, index=0): None
+53.6157 	DATA 	Keypress: b
+53.6295 	EXP 	Cross: autoDraw = False
+53.6295 	EXP 	polygon_2: autoDraw = False
+54.6114 	EXP 	Cross: autoDraw = True
+54.8113 	EXP 	Cross: autoDraw = False
+55.3446 	EXP 	polygon_2: autoDraw = True
+55.6126 	EXP 	New trial (rep=21, index=0): None
+55.6139 	DATA 	Keypress: b
+55.6278 	EXP 	Cross: autoDraw = False
+55.6278 	EXP 	polygon_2: autoDraw = False
+56.6110 	EXP 	Cross: autoDraw = True
+56.8117 	EXP 	Cross: autoDraw = False
+57.4612 	EXP 	polygon_2: autoDraw = True
+57.9805 	EXP 	New trial (rep=22, index=0): None
+57.9827 	DATA 	Keypress: b
+57.9966 	EXP 	Cross: autoDraw = False
+57.9966 	EXP 	polygon_2: autoDraw = False
+58.9778 	EXP 	Cross: autoDraw = True
+59.1778 	EXP 	Cross: autoDraw = False
+59.9112 	EXP 	polygon_2: autoDraw = True
+60.0129 	EXP 	New trial (rep=23, index=0): None
+60.0143 	DATA 	Keypress: b
+60.0282 	EXP 	Cross: autoDraw = False
+60.0282 	EXP 	polygon_2: autoDraw = False
+61.0116 	EXP 	Cross: autoDraw = True
+61.2116 	EXP 	Cross: autoDraw = False
+61.8276 	EXP 	polygon_2: autoDraw = True
+62.0794 	EXP 	New trial (rep=24, index=0): None
+62.0811 	DATA 	Keypress: b
+62.0948 	EXP 	Cross: autoDraw = False
+62.0948 	EXP 	polygon_2: autoDraw = False
+63.0777 	EXP 	Cross: autoDraw = True
+63.2775 	EXP 	Cross: autoDraw = False
+63.9610 	EXP 	polygon_2: autoDraw = True
+64.2124 	EXP 	New trial (rep=25, index=0): None
+64.2137 	DATA 	Keypress: b
+64.2279 	EXP 	Cross: autoDraw = False
+64.2279 	EXP 	polygon_2: autoDraw = False
+65.2109 	EXP 	Cross: autoDraw = True
+65.4113 	EXP 	Cross: autoDraw = False
+65.9108 	EXP 	polygon_2: autoDraw = True
+66.1799 	EXP 	New trial (rep=26, index=0): None
+66.1820 	DATA 	Keypress: b
+66.1957 	EXP 	Cross: autoDraw = False
+66.1957 	EXP 	polygon_2: autoDraw = False
+67.1773 	EXP 	Cross: autoDraw = True
+67.3776 	EXP 	Cross: autoDraw = False
+68.0774 	EXP 	polygon_2: autoDraw = True
+68.1964 	EXP 	New trial (rep=27, index=0): None
+68.1977 	DATA 	Keypress: b
+68.2116 	EXP 	Cross: autoDraw = False
+68.2116 	EXP 	polygon_2: autoDraw = False
+69.1941 	EXP 	Cross: autoDraw = True
+69.3940 	EXP 	Cross: autoDraw = False
+70.1440 	EXP 	polygon_2: autoDraw = True
+70.3294 	EXP 	New trial (rep=28, index=0): None
+70.3306 	DATA 	Keypress: b
+70.3443 	EXP 	Cross: autoDraw = False
+70.3443 	EXP 	polygon_2: autoDraw = False
+71.3274 	EXP 	Cross: autoDraw = True
+71.5276 	EXP 	Cross: autoDraw = False
+72.1279 	EXP 	polygon_2: autoDraw = True
+72.3790 	EXP 	New trial (rep=29, index=0): None
+72.3803 	DATA 	Keypress: b
+72.3940 	EXP 	Cross: autoDraw = False
+72.3940 	EXP 	polygon_2: autoDraw = False
+73.3773 	EXP 	Cross: autoDraw = True
+73.5773 	EXP 	Cross: autoDraw = False
+73.9774 	EXP 	polygon_2: autoDraw = True
+74.2301 	EXP 	New trial (rep=30, index=0): None
+74.2317 	DATA 	Keypress: b
+74.2454 	EXP 	Cross: autoDraw = False
+74.2454 	EXP 	polygon_2: autoDraw = False
+75.2277 	EXP 	Cross: autoDraw = True
+75.4278 	EXP 	Cross: autoDraw = False
+75.7940 	EXP 	polygon_2: autoDraw = True
+76.2790 	EXP 	New trial (rep=31, index=0): None
+76.2805 	DATA 	Keypress: b
+76.2942 	EXP 	Cross: autoDraw = False
+76.2942 	EXP 	polygon_2: autoDraw = False
+77.2773 	EXP 	Cross: autoDraw = True
+77.4773 	EXP 	Cross: autoDraw = False
+78.0110 	EXP 	polygon_2: autoDraw = True
+78.2623 	EXP 	New trial (rep=32, index=0): None
+78.2636 	DATA 	Keypress: b
+78.2775 	EXP 	Cross: autoDraw = False
+78.2775 	EXP 	polygon_2: autoDraw = False
+79.2607 	EXP 	Cross: autoDraw = True
+79.4605 	EXP 	Cross: autoDraw = False
+80.0776 	EXP 	polygon_2: autoDraw = True
+80.3632 	EXP 	New trial (rep=33, index=0): None
+80.3646 	DATA 	Keypress: b
+80.3786 	EXP 	Cross: autoDraw = False
+80.3786 	EXP 	polygon_2: autoDraw = False
+81.3605 	EXP 	Cross: autoDraw = True
+81.5605 	EXP 	Cross: autoDraw = False
+81.8939 	EXP 	polygon_2: autoDraw = True
+82.2285 	EXP 	New trial (rep=34, index=0): None
+82.2300 	DATA 	Keypress: b
+82.2438 	EXP 	Cross: autoDraw = False
+82.2438 	EXP 	polygon_2: autoDraw = False
+83.2270 	EXP 	Cross: autoDraw = True
+83.4272 	EXP 	Cross: autoDraw = False
+83.8104 	EXP 	polygon_2: autoDraw = True
+84.1119 	EXP 	New trial (rep=35, index=0): None
+84.1133 	DATA 	Keypress: b
+84.1271 	EXP 	Cross: autoDraw = False
+84.1271 	EXP 	polygon_2: autoDraw = False
+85.1105 	EXP 	Cross: autoDraw = True
+85.3105 	EXP 	Cross: autoDraw = False
+86.0103 	EXP 	polygon_2: autoDraw = True
+86.1954 	EXP 	New trial (rep=36, index=0): None
+86.1968 	DATA 	Keypress: b
+86.2107 	EXP 	Cross: autoDraw = False
+86.2107 	EXP 	polygon_2: autoDraw = False
+87.1942 	EXP 	Cross: autoDraw = True
+87.3942 	EXP 	Cross: autoDraw = False
+87.7605 	EXP 	polygon_2: autoDraw = True
+88.0618 	EXP 	New trial (rep=37, index=0): None
+88.0631 	DATA 	Keypress: b
+88.0770 	EXP 	Cross: autoDraw = False
+88.0770 	EXP 	polygon_2: autoDraw = False
+89.0607 	EXP 	Cross: autoDraw = True
+89.2604 	EXP 	Cross: autoDraw = False
+89.5936 	EXP 	polygon_2: autoDraw = True
+89.8787 	EXP 	New trial (rep=38, index=0): None
+89.8802 	DATA 	Keypress: b
+89.8940 	EXP 	Cross: autoDraw = False
+89.8940 	EXP 	polygon_2: autoDraw = False
+90.8773 	EXP 	Cross: autoDraw = True
+91.0773 	EXP 	Cross: autoDraw = False
+91.8602 	EXP 	polygon_2: autoDraw = True
+91.8952 	EXP 	New trial (rep=39, index=0): None
+91.8969 	DATA 	Keypress: b
+91.9108 	EXP 	Cross: autoDraw = False
+91.9108 	EXP 	polygon_2: autoDraw = False
+92.8939 	EXP 	Cross: autoDraw = True
+93.0933 	EXP 	Cross: autoDraw = False
+93.6100 	EXP 	polygon_2: autoDraw = True
+93.9127 	EXP 	New trial (rep=40, index=0): None
+93.9143 	DATA 	Keypress: b
+93.9282 	EXP 	Cross: autoDraw = False
+93.9282 	EXP 	polygon_2: autoDraw = False
+94.9100 	EXP 	Cross: autoDraw = True
+95.1103 	EXP 	Cross: autoDraw = False
+95.8099 	EXP 	polygon_2: autoDraw = True
+96.0450 	EXP 	New trial (rep=41, index=0): None
+96.0463 	DATA 	Keypress: b
+96.0603 	EXP 	Cross: autoDraw = False
+96.0603 	EXP 	polygon_2: autoDraw = False
+97.0433 	EXP 	Cross: autoDraw = True
+97.2436 	EXP 	Cross: autoDraw = False
+97.6434 	EXP 	polygon_2: autoDraw = True
+97.8952 	EXP 	New trial (rep=42, index=0): None
+97.8966 	DATA 	Keypress: b
+97.9105 	EXP 	Cross: autoDraw = False
+97.9105 	EXP 	polygon_2: autoDraw = False
+98.8939 	EXP 	Cross: autoDraw = True
+99.0938 	EXP 	Cross: autoDraw = False
+99.5936 	EXP 	polygon_2: autoDraw = True
+99.7291 	EXP 	New trial (rep=43, index=0): None
+99.7312 	DATA 	Keypress: b
+99.7451 	EXP 	Cross: autoDraw = False
+99.7451 	EXP 	polygon_2: autoDraw = False
+100.7269 	EXP 	Cross: autoDraw = True
+100.9268 	EXP 	Cross: autoDraw = False
+101.3437 	EXP 	polygon_2: autoDraw = True
+101.5289 	EXP 	New trial (rep=44, index=0): None
+101.5310 	DATA 	Keypress: b
+101.5449 	EXP 	Cross: autoDraw = False
+101.5449 	EXP 	polygon_2: autoDraw = False
+102.5270 	EXP 	Cross: autoDraw = True
+102.7269 	EXP 	Cross: autoDraw = False
+103.3436 	EXP 	polygon_2: autoDraw = True
+103.4613 	EXP 	New trial (rep=45, index=0): None
+103.4625 	DATA 	Keypress: b
+103.4767 	EXP 	Cross: autoDraw = False
+103.4767 	EXP 	polygon_2: autoDraw = False
+104.4604 	EXP 	Cross: autoDraw = True
+104.6601 	EXP 	Cross: autoDraw = False
+105.0097 	EXP 	polygon_2: autoDraw = True
+105.2786 	EXP 	New trial (rep=46, index=0): None
+105.2808 	DATA 	Keypress: b
+105.2946 	EXP 	Cross: autoDraw = False
+105.2946 	EXP 	polygon_2: autoDraw = False
+106.2767 	EXP 	Cross: autoDraw = True
+106.4765 	EXP 	Cross: autoDraw = False
+107.0596 	EXP 	polygon_2: autoDraw = True
+107.2279 	EXP 	New trial (rep=47, index=0): None
+107.2292 	DATA 	Keypress: b
+107.2469 	EXP 	Cross: autoDraw = False
+107.2469 	EXP 	polygon_2: autoDraw = False
+108.2263 	EXP 	Cross: autoDraw = True
+108.4263 	EXP 	Cross: autoDraw = False
+109.0595 	EXP 	polygon_2: autoDraw = True
+109.2776 	EXP 	New trial (rep=48, index=0): None
+109.2790 	DATA 	Keypress: b
+109.2929 	EXP 	Cross: autoDraw = False
+109.2929 	EXP 	polygon_2: autoDraw = False
+110.2763 	EXP 	Cross: autoDraw = True
+110.4762 	EXP 	Cross: autoDraw = False
+111.2098 	EXP 	polygon_2: autoDraw = True
+111.2444 	EXP 	New trial (rep=49, index=0): None
+111.2457 	DATA 	Keypress: b
+111.2597 	EXP 	Cross: autoDraw = False
+111.2597 	EXP 	polygon_2: autoDraw = False
+112.2256 	EXP 	Cross: autoDraw = True
+112.4267 	EXP 	Cross: autoDraw = False
+112.8097 	EXP 	polygon_2: autoDraw = True
+113.1493 	DATA 	Keypress: b
+113.1640 	EXP 	Cross: autoDraw = False
+113.1640 	EXP 	polygon_2: autoDraw = False
+113.1640 	EXP 	thanksText: autoDraw = True
+115.1573 	EXP 	thanksText: autoDraw = False
+115.4316 	EXP 	window1: mouseVisible = True

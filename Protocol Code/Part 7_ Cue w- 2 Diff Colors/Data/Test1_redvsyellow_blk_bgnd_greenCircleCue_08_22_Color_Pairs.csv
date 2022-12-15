@@ -1,0 +1,5 @@
+Color,Direction,Eccentricity (degrees),Reaction Time (s),Correctness,Name,Trial,Circle Size (degrees),Experiment Name,Background Color,Cue
+"[255, 255, 0]",2,0,0.5593048589980754,0,Test,1,8,RY,BLACK,Green Circle
+"[255, 0, 0]",2,0,0.433681472997705,0,Test,1,8,RY,BLACK,Green Circle
+"[255, 0, 0]",0,0,0.3131485390003945,1,Test,1,8,RY,BLACK,Green Circle
+"[255, 0, 0]",0,0,0.2937696250010049,0,Test,1,8,RY,BLACK,Green Circle

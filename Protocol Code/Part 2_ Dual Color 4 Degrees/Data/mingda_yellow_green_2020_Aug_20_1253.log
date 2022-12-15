@@ -1,0 +1,918 @@
+0.8175 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+69.6935 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1680, 1050]. Using actual size
+70.4194 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1447956a0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x14c061ef0>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+70.4194 	EXP 	window1: recordFrameIntervals = False
+70.6402 	EXP 	window1: recordFrameIntervals = True
+70.8240 	EXP 	window1: recordFrameIntervals = False
+71.3301 	EXP 	Created ExperimentInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ExperimentInstructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+71.7515 	EXP 	Created Cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='Cross', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+71.7652 	EXP 	Created polygon_2 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb255', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb255', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2.74, 2.74]), units='deg', vertices=ndarray(...), win=Window(...))
+72.1910 	EXP 	Created thanksText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='thanksText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+72.2232 	EXP 	ExperimentInstructions: autoDraw = True
+73.6579 	EXP 	Created sequence: random, trialTypes=1, nReps=100, seed=None
+73.6585 	EXP 	New trial (rep=0, index=0): None
+73.6621 	DATA 	Keypress: space
+73.6764 	EXP 	ExperimentInstructions: autoDraw = False
+73.6764 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+73.6764 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+74.6740 	EXP 	Cross: autoDraw = True
+74.8734 	EXP 	Cross: autoDraw = False
+75.2902 	EXP 	polygon_2: autoDraw = True
+75.7262 	EXP 	New trial (rep=1, index=0): None
+75.7279 	DATA 	Keypress: j
+75.7419 	EXP 	Cross: autoDraw = False
+75.7419 	EXP 	polygon_2: autoDraw = False
+75.7419 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+75.7419 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+76.7236 	EXP 	Cross: autoDraw = True
+76.9257 	EXP 	Cross: autoDraw = False
+77.5237 	EXP 	polygon_2: autoDraw = True
+77.8433 	EXP 	New trial (rep=2, index=0): None
+77.8454 	DATA 	Keypress: j
+77.8592 	EXP 	Cross: autoDraw = False
+77.8592 	EXP 	polygon_2: autoDraw = False
+77.8592 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+77.8592 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+78.8400 	EXP 	Cross: autoDraw = True
+79.0399 	EXP 	Cross: autoDraw = False
+79.7398 	EXP 	polygon_2: autoDraw = True
+80.0261 	EXP 	New trial (rep=3, index=0): None
+80.0282 	DATA 	Keypress: j
+80.0420 	EXP 	Cross: autoDraw = False
+80.0420 	EXP 	polygon_2: autoDraw = False
+80.0420 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+80.0420 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+81.0231 	EXP 	Cross: autoDraw = True
+81.2231 	EXP 	Cross: autoDraw = False
+81.5397 	EXP 	polygon_2: autoDraw = True
+81.8586 	EXP 	New trial (rep=4, index=0): None
+81.8602 	DATA 	Keypress: f
+81.8741 	EXP 	Cross: autoDraw = False
+81.8741 	EXP 	polygon_2: autoDraw = False
+81.8741 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+81.8741 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+82.8565 	EXP 	Cross: autoDraw = True
+83.0565 	EXP 	Cross: autoDraw = False
+83.7066 	EXP 	polygon_2: autoDraw = True
+83.9756 	EXP 	New trial (rep=5, index=0): None
+83.9772 	DATA 	Keypress: f
+83.9911 	EXP 	Cross: autoDraw = False
+83.9911 	EXP 	polygon_2: autoDraw = False
+83.9911 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+83.9911 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+84.9731 	EXP 	Cross: autoDraw = True
+85.1730 	EXP 	Cross: autoDraw = False
+85.4896 	EXP 	polygon_2: autoDraw = True
+85.7927 	EXP 	New trial (rep=6, index=0): None
+85.7942 	DATA 	Keypress: f
+85.8082 	EXP 	Cross: autoDraw = False
+85.8082 	EXP 	polygon_2: autoDraw = False
+85.8082 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+85.8082 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+86.7897 	EXP 	Cross: autoDraw = True
+86.9897 	EXP 	Cross: autoDraw = False
+87.3065 	EXP 	polygon_2: autoDraw = True
+87.5930 	EXP 	New trial (rep=7, index=0): None
+87.5950 	DATA 	Keypress: f
+87.6087 	EXP 	Cross: autoDraw = False
+87.6087 	EXP 	polygon_2: autoDraw = False
+87.6087 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+87.6087 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+88.5899 	EXP 	Cross: autoDraw = True
+88.7896 	EXP 	Cross: autoDraw = False
+89.5730 	EXP 	polygon_2: autoDraw = True
+89.8251 	EXP 	New trial (rep=8, index=0): None
+89.8267 	DATA 	Keypress: f
+89.8404 	EXP 	Cross: autoDraw = False
+89.8404 	EXP 	polygon_2: autoDraw = False
+89.8404 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+89.8404 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+90.8234 	EXP 	Cross: autoDraw = True
+91.0235 	EXP 	Cross: autoDraw = False
+91.7230 	EXP 	polygon_2: autoDraw = True
+92.1758 	EXP 	New trial (rep=9, index=0): None
+92.1778 	DATA 	Keypress: j
+92.1916 	EXP 	Cross: autoDraw = False
+92.1916 	EXP 	polygon_2: autoDraw = False
+92.1916 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+92.1916 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+93.1734 	EXP 	Cross: autoDraw = True
+93.3727 	EXP 	Cross: autoDraw = False
+94.1730 	EXP 	polygon_2: autoDraw = True
+94.6086 	EXP 	New trial (rep=10, index=0): None
+94.6104 	DATA 	Keypress: f
+94.6241 	EXP 	Cross: autoDraw = False
+94.6241 	EXP 	polygon_2: autoDraw = False
+94.6241 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+94.6241 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+95.6062 	EXP 	Cross: autoDraw = True
+95.8062 	EXP 	Cross: autoDraw = False
+96.4894 	EXP 	polygon_2: autoDraw = True
+96.8423 	EXP 	New trial (rep=11, index=0): None
+96.8441 	DATA 	Keypress: f
+96.8579 	EXP 	Cross: autoDraw = False
+96.8579 	EXP 	polygon_2: autoDraw = False
+96.8579 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+96.8579 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+97.8395 	EXP 	Cross: autoDraw = True
+98.0393 	EXP 	Cross: autoDraw = False
+98.7392 	EXP 	polygon_2: autoDraw = True
+99.0752 	EXP 	New trial (rep=12, index=0): None
+99.0770 	DATA 	Keypress: f
+99.0907 	EXP 	Cross: autoDraw = False
+99.0907 	EXP 	polygon_2: autoDraw = False
+99.0907 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+99.0907 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+100.0727 	EXP 	Cross: autoDraw = True
+100.2731 	EXP 	Cross: autoDraw = False
+101.0558 	EXP 	polygon_2: autoDraw = True
+101.4583 	EXP 	New trial (rep=13, index=0): None
+101.4601 	DATA 	Keypress: f
+101.4739 	EXP 	Cross: autoDraw = False
+101.4739 	EXP 	polygon_2: autoDraw = False
+101.4739 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+101.4739 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+102.4561 	EXP 	Cross: autoDraw = True
+102.6563 	EXP 	Cross: autoDraw = False
+103.2896 	EXP 	polygon_2: autoDraw = True
+103.6754 	EXP 	New trial (rep=14, index=0): None
+103.6774 	DATA 	Keypress: j
+103.6911 	EXP 	Cross: autoDraw = False
+103.6911 	EXP 	polygon_2: autoDraw = False
+103.6911 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+103.6911 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+104.6730 	EXP 	Cross: autoDraw = True
+104.8724 	EXP 	Cross: autoDraw = False
+105.2726 	EXP 	polygon_2: autoDraw = True
+105.5928 	EXP 	New trial (rep=15, index=0): None
+105.5950 	DATA 	Keypress: j
+105.6089 	EXP 	Cross: autoDraw = False
+105.6089 	EXP 	polygon_2: autoDraw = False
+105.6089 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+105.6089 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+106.5893 	EXP 	Cross: autoDraw = True
+106.7902 	EXP 	Cross: autoDraw = False
+107.1559 	EXP 	polygon_2: autoDraw = True
+107.4920 	EXP 	New trial (rep=16, index=0): None
+107.4940 	DATA 	Keypress: j
+107.5079 	EXP 	Cross: autoDraw = False
+107.5079 	EXP 	polygon_2: autoDraw = False
+107.5079 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+107.5079 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+108.4896 	EXP 	Cross: autoDraw = True
+108.6890 	EXP 	Cross: autoDraw = False
+108.9896 	EXP 	polygon_2: autoDraw = True
+109.4078 	EXP 	New trial (rep=17, index=0): None
+109.4095 	DATA 	Keypress: f
+109.4232 	EXP 	Cross: autoDraw = False
+109.4232 	EXP 	polygon_2: autoDraw = False
+109.4232 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+109.4232 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+110.4061 	EXP 	Cross: autoDraw = True
+110.6058 	EXP 	Cross: autoDraw = False
+110.9228 	EXP 	polygon_2: autoDraw = True
+111.3082 	EXP 	New trial (rep=18, index=0): None
+111.3101 	DATA 	Keypress: j
+111.3239 	EXP 	Cross: autoDraw = False
+111.3239 	EXP 	polygon_2: autoDraw = False
+111.3239 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+111.3239 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+112.3062 	EXP 	Cross: autoDraw = True
+112.5056 	EXP 	Cross: autoDraw = False
+113.2389 	EXP 	polygon_2: autoDraw = True
+113.6415 	EXP 	New trial (rep=19, index=0): None
+113.6435 	DATA 	Keypress: f
+113.6573 	EXP 	Cross: autoDraw = False
+113.6573 	EXP 	polygon_2: autoDraw = False
+113.6573 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+113.6573 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+114.6388 	EXP 	Cross: autoDraw = True
+114.8388 	EXP 	Cross: autoDraw = False
+115.2727 	EXP 	polygon_2: autoDraw = True
+115.6580 	EXP 	New trial (rep=20, index=0): None
+115.6595 	DATA 	Keypress: j
+115.6735 	EXP 	Cross: autoDraw = False
+115.6735 	EXP 	polygon_2: autoDraw = False
+115.6735 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+115.6735 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+116.6555 	EXP 	Cross: autoDraw = True
+116.8558 	EXP 	Cross: autoDraw = False
+117.4219 	EXP 	polygon_2: autoDraw = True
+117.8245 	EXP 	New trial (rep=21, index=0): None
+117.8263 	DATA 	Keypress: j
+117.8402 	EXP 	Cross: autoDraw = False
+117.8402 	EXP 	polygon_2: autoDraw = False
+117.8402 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+117.8402 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+118.8227 	EXP 	Cross: autoDraw = True
+119.0221 	EXP 	Cross: autoDraw = False
+119.5555 	EXP 	polygon_2: autoDraw = True
+119.9747 	EXP 	New trial (rep=22, index=0): None
+119.9763 	DATA 	Keypress: f
+119.9903 	EXP 	Cross: autoDraw = False
+119.9903 	EXP 	polygon_2: autoDraw = False
+119.9903 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+119.9903 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+120.9720 	EXP 	Cross: autoDraw = True
+121.1722 	EXP 	Cross: autoDraw = False
+121.5393 	EXP 	polygon_2: autoDraw = True
+121.9580 	EXP 	New trial (rep=23, index=0): None
+121.9598 	DATA 	Keypress: j
+121.9734 	EXP 	Cross: autoDraw = False
+121.9734 	EXP 	polygon_2: autoDraw = False
+121.9734 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+121.9734 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+122.9555 	EXP 	Cross: autoDraw = True
+123.1559 	EXP 	Cross: autoDraw = False
+123.9225 	EXP 	polygon_2: autoDraw = True
+124.3078 	EXP 	New trial (rep=24, index=0): None
+124.3094 	DATA 	Keypress: j
+124.3233 	EXP 	Cross: autoDraw = False
+124.3233 	EXP 	polygon_2: autoDraw = False
+124.3233 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+124.3233 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+125.3053 	EXP 	Cross: autoDraw = True
+125.5053 	EXP 	Cross: autoDraw = False
+126.2389 	EXP 	polygon_2: autoDraw = True
+126.6908 	EXP 	New trial (rep=25, index=0): None
+126.6924 	DATA 	Keypress: f
+126.7063 	EXP 	Cross: autoDraw = False
+126.7063 	EXP 	polygon_2: autoDraw = False
+126.7063 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+126.7063 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+127.6889 	EXP 	Cross: autoDraw = True
+127.8886 	EXP 	Cross: autoDraw = False
+128.5891 	EXP 	polygon_2: autoDraw = True
+129.0251 	EXP 	New trial (rep=26, index=0): None
+129.0272 	DATA 	Keypress: j
+129.0410 	EXP 	Cross: autoDraw = False
+129.0410 	EXP 	polygon_2: autoDraw = False
+129.0410 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+129.0410 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+130.0218 	EXP 	Cross: autoDraw = True
+130.2222 	EXP 	Cross: autoDraw = False
+130.7552 	EXP 	polygon_2: autoDraw = True
+131.1412 	EXP 	New trial (rep=27, index=0): None
+131.1432 	DATA 	Keypress: f
+131.1570 	EXP 	Cross: autoDraw = False
+131.1570 	EXP 	polygon_2: autoDraw = False
+131.1570 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+131.1570 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+132.1390 	EXP 	Cross: autoDraw = True
+132.3384 	EXP 	Cross: autoDraw = False
+132.9385 	EXP 	polygon_2: autoDraw = True
+133.3909 	EXP 	New trial (rep=28, index=0): None
+133.3927 	DATA 	Keypress: j
+133.4064 	EXP 	Cross: autoDraw = False
+133.4064 	EXP 	polygon_2: autoDraw = False
+133.4064 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+133.4064 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+134.3889 	EXP 	Cross: autoDraw = True
+134.5889 	EXP 	Cross: autoDraw = False
+135.1554 	EXP 	polygon_2: autoDraw = True
+135.4916 	EXP 	New trial (rep=29, index=0): None
+135.4937 	DATA 	Keypress: f
+135.5075 	EXP 	Cross: autoDraw = False
+135.5075 	EXP 	polygon_2: autoDraw = False
+135.5075 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+135.5075 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+136.4883 	EXP 	Cross: autoDraw = True
+136.6884 	EXP 	Cross: autoDraw = False
+137.2555 	EXP 	polygon_2: autoDraw = True
+137.5909 	EXP 	New trial (rep=30, index=0): None
+137.5925 	DATA 	Keypress: j
+137.6063 	EXP 	Cross: autoDraw = False
+137.6063 	EXP 	polygon_2: autoDraw = False
+137.6063 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+137.6063 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+138.5883 	EXP 	Cross: autoDraw = True
+138.7883 	EXP 	Cross: autoDraw = False
+139.4886 	EXP 	polygon_2: autoDraw = True
+139.8405 	EXP 	New trial (rep=31, index=0): None
+139.8420 	DATA 	Keypress: j
+139.8556 	EXP 	Cross: autoDraw = False
+139.8556 	EXP 	polygon_2: autoDraw = False
+139.8556 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+139.8556 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+140.8383 	EXP 	Cross: autoDraw = True
+141.0382 	EXP 	Cross: autoDraw = False
+141.4715 	EXP 	polygon_2: autoDraw = True
+141.8405 	EXP 	New trial (rep=32, index=0): None
+141.8422 	DATA 	Keypress: f
+141.8566 	EXP 	Cross: autoDraw = False
+141.8566 	EXP 	polygon_2: autoDraw = False
+141.8566 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+141.8566 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+142.8382 	EXP 	Cross: autoDraw = True
+143.0383 	EXP 	Cross: autoDraw = False
+143.6547 	EXP 	polygon_2: autoDraw = True
+144.0240 	EXP 	New trial (rep=33, index=0): None
+144.0260 	DATA 	Keypress: j
+144.0399 	EXP 	Cross: autoDraw = False
+144.0399 	EXP 	polygon_2: autoDraw = False
+144.0399 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+144.0399 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+145.0215 	EXP 	Cross: autoDraw = True
+145.2215 	EXP 	Cross: autoDraw = False
+145.6048 	EXP 	polygon_2: autoDraw = True
+146.0572 	EXP 	New trial (rep=34, index=0): None
+146.0588 	DATA 	Keypress: j
+146.0725 	EXP 	Cross: autoDraw = False
+146.0725 	EXP 	polygon_2: autoDraw = False
+146.0725 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+146.0725 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+147.0552 	EXP 	Cross: autoDraw = True
+147.2553 	EXP 	Cross: autoDraw = False
+147.7053 	EXP 	polygon_2: autoDraw = True
+148.3071 	EXP 	New trial (rep=35, index=0): None
+148.3088 	DATA 	Keypress: f
+148.3225 	EXP 	Cross: autoDraw = False
+148.3225 	EXP 	polygon_2: autoDraw = False
+148.3225 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+148.3225 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+149.3047 	EXP 	Cross: autoDraw = True
+149.5049 	EXP 	Cross: autoDraw = False
+150.0713 	EXP 	polygon_2: autoDraw = True
+150.6569 	EXP 	New trial (rep=36, index=0): None
+150.6586 	DATA 	Keypress: f
+150.6725 	EXP 	Cross: autoDraw = False
+150.6725 	EXP 	polygon_2: autoDraw = False
+150.6725 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+150.6725 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+151.6552 	EXP 	Cross: autoDraw = True
+151.8554 	EXP 	Cross: autoDraw = False
+152.3052 	EXP 	polygon_2: autoDraw = True
+152.7066 	EXP 	New trial (rep=37, index=0): None
+152.7082 	DATA 	Keypress: j
+152.7218 	EXP 	Cross: autoDraw = False
+152.7218 	EXP 	polygon_2: autoDraw = False
+152.7218 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+152.7218 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+153.7047 	EXP 	Cross: autoDraw = True
+153.9046 	EXP 	Cross: autoDraw = False
+154.5711 	EXP 	polygon_2: autoDraw = True
+155.1238 	EXP 	New trial (rep=38, index=0): None
+155.1257 	DATA 	Keypress: f
+155.1394 	EXP 	Cross: autoDraw = False
+155.1394 	EXP 	polygon_2: autoDraw = False
+155.1394 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+155.1394 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+156.1212 	EXP 	Cross: autoDraw = True
+156.3211 	EXP 	Cross: autoDraw = False
+157.0377 	EXP 	polygon_2: autoDraw = True
+157.4901 	EXP 	New trial (rep=39, index=0): None
+157.4919 	DATA 	Keypress: f
+157.5055 	EXP 	Cross: autoDraw = False
+157.5055 	EXP 	polygon_2: autoDraw = False
+157.5055 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+157.5055 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+158.4878 	EXP 	Cross: autoDraw = True
+158.6851 	EXP 	Cross: autoDraw = False
+159.2879 	EXP 	polygon_2: autoDraw = True
+159.7710 	EXP 	New trial (rep=40, index=0): None
+159.7729 	DATA 	Keypress: f
+159.7849 	EXP 	Cross: autoDraw = False
+159.7849 	EXP 	polygon_2: autoDraw = False
+159.7849 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+159.7849 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+160.7714 	EXP 	Cross: autoDraw = True
+160.9715 	EXP 	Cross: autoDraw = False
+161.4377 	EXP 	polygon_2: autoDraw = True
+161.7734 	EXP 	New trial (rep=41, index=0): None
+161.7751 	DATA 	Keypress: f
+161.7896 	EXP 	Cross: autoDraw = False
+161.7896 	EXP 	polygon_2: autoDraw = False
+161.7896 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+161.7896 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+162.7711 	EXP 	Cross: autoDraw = True
+162.9711 	EXP 	Cross: autoDraw = False
+163.5709 	EXP 	polygon_2: autoDraw = True
+163.9068 	EXP 	New trial (rep=42, index=0): None
+163.9087 	DATA 	Keypress: f
+163.9224 	EXP 	Cross: autoDraw = False
+163.9224 	EXP 	polygon_2: autoDraw = False
+163.9224 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+163.9224 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+164.9041 	EXP 	Cross: autoDraw = True
+165.1046 	EXP 	Cross: autoDraw = False
+165.4045 	EXP 	polygon_2: autoDraw = True
+165.8065 	EXP 	New trial (rep=43, index=0): None
+165.8081 	DATA 	Keypress: f
+165.8218 	EXP 	Cross: autoDraw = False
+165.8218 	EXP 	polygon_2: autoDraw = False
+165.8218 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+165.8218 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+166.8042 	EXP 	Cross: autoDraw = True
+167.0041 	EXP 	Cross: autoDraw = False
+167.3208 	EXP 	polygon_2: autoDraw = True
+167.6573 	EXP 	New trial (rep=44, index=0): None
+167.6592 	DATA 	Keypress: j
+167.6730 	EXP 	Cross: autoDraw = False
+167.6730 	EXP 	polygon_2: autoDraw = False
+167.6730 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+167.6730 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+168.6547 	EXP 	Cross: autoDraw = True
+168.8547 	EXP 	Cross: autoDraw = False
+169.4709 	EXP 	polygon_2: autoDraw = True
+169.8940 	EXP 	New trial (rep=45, index=0): None
+169.8959 	DATA 	Keypress: f
+169.9208 	EXP 	Cross: autoDraw = False
+169.9208 	EXP 	polygon_2: autoDraw = False
+169.9208 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+169.9208 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+170.8874 	EXP 	Cross: autoDraw = True
+171.0876 	EXP 	Cross: autoDraw = False
+171.7375 	EXP 	polygon_2: autoDraw = True
+172.1727 	EXP 	New trial (rep=46, index=0): None
+172.1743 	DATA 	Keypress: j
+172.1880 	EXP 	Cross: autoDraw = False
+172.1880 	EXP 	polygon_2: autoDraw = False
+172.1880 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+172.1880 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+173.1712 	EXP 	Cross: autoDraw = True
+173.3712 	EXP 	Cross: autoDraw = False
+173.9542 	EXP 	polygon_2: autoDraw = True
+174.3567 	EXP 	New trial (rep=47, index=0): None
+174.3584 	DATA 	Keypress: f
+174.3724 	EXP 	Cross: autoDraw = False
+174.3724 	EXP 	polygon_2: autoDraw = False
+174.3724 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+174.3724 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+175.3541 	EXP 	Cross: autoDraw = True
+175.5539 	EXP 	Cross: autoDraw = False
+175.9045 	EXP 	polygon_2: autoDraw = True
+176.4402 	EXP 	New trial (rep=48, index=0): None
+176.4418 	DATA 	Keypress: j
+176.4554 	EXP 	Cross: autoDraw = False
+176.4554 	EXP 	polygon_2: autoDraw = False
+176.4554 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+176.4554 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+177.4374 	EXP 	Cross: autoDraw = True
+177.6373 	EXP 	Cross: autoDraw = False
+178.3205 	EXP 	polygon_2: autoDraw = True
+178.8397 	EXP 	New trial (rep=49, index=0): None
+178.8416 	DATA 	Keypress: j
+178.8553 	EXP 	Cross: autoDraw = False
+178.8553 	EXP 	polygon_2: autoDraw = False
+178.8553 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+178.8553 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+179.8374 	EXP 	Cross: autoDraw = True
+180.0369 	EXP 	Cross: autoDraw = False
+180.8043 	EXP 	polygon_2: autoDraw = True
+181.3742 	EXP 	New trial (rep=50, index=0): None
+181.3761 	DATA 	Keypress: j
+181.3899 	EXP 	Cross: autoDraw = False
+181.3899 	EXP 	polygon_2: autoDraw = False
+181.3899 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+181.3899 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+182.3702 	EXP 	Cross: autoDraw = True
+182.5703 	EXP 	Cross: autoDraw = False
+183.0207 	EXP 	polygon_2: autoDraw = True
+183.5391 	EXP 	New trial (rep=51, index=0): None
+183.5407 	DATA 	Keypress: j
+183.5545 	EXP 	Cross: autoDraw = False
+183.5545 	EXP 	polygon_2: autoDraw = False
+183.5545 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+183.5545 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+184.5373 	EXP 	Cross: autoDraw = True
+184.7375 	EXP 	Cross: autoDraw = False
+185.4204 	EXP 	polygon_2: autoDraw = True
+185.8061 	EXP 	New trial (rep=52, index=0): None
+185.8079 	DATA 	Keypress: j
+185.8216 	EXP 	Cross: autoDraw = False
+185.8216 	EXP 	polygon_2: autoDraw = False
+185.8216 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+185.8216 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+186.8038 	EXP 	Cross: autoDraw = True
+187.0042 	EXP 	Cross: autoDraw = False
+187.5539 	EXP 	polygon_2: autoDraw = True
+187.9560 	EXP 	New trial (rep=53, index=0): None
+187.9577 	DATA 	Keypress: j
+187.9716 	EXP 	Cross: autoDraw = False
+187.9716 	EXP 	polygon_2: autoDraw = False
+187.9716 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+187.9716 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+188.9537 	EXP 	Cross: autoDraw = True
+189.1534 	EXP 	Cross: autoDraw = False
+189.6202 	EXP 	polygon_2: autoDraw = True
+189.9562 	EXP 	New trial (rep=54, index=0): None
+189.9582 	DATA 	Keypress: j
+189.9719 	EXP 	Cross: autoDraw = False
+189.9719 	EXP 	polygon_2: autoDraw = False
+189.9719 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+189.9719 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+190.9536 	EXP 	Cross: autoDraw = True
+191.1539 	EXP 	Cross: autoDraw = False
+191.9367 	EXP 	polygon_2: autoDraw = True
+192.2556 	EXP 	New trial (rep=55, index=0): None
+192.2573 	DATA 	Keypress: j
+192.2712 	EXP 	Cross: autoDraw = False
+192.2712 	EXP 	polygon_2: autoDraw = False
+192.2712 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+192.2712 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+193.2534 	EXP 	Cross: autoDraw = True
+193.4537 	EXP 	Cross: autoDraw = False
+194.1534 	EXP 	polygon_2: autoDraw = True
+194.4561 	EXP 	New trial (rep=56, index=0): None
+194.4577 	DATA 	Keypress: j
+194.4715 	EXP 	Cross: autoDraw = False
+194.4715 	EXP 	polygon_2: autoDraw = False
+194.4715 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+194.4715 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+195.4536 	EXP 	Cross: autoDraw = True
+195.6535 	EXP 	Cross: autoDraw = False
+196.0369 	EXP 	polygon_2: autoDraw = True
+196.3392 	EXP 	New trial (rep=57, index=0): None
+196.3408 	DATA 	Keypress: j
+196.3558 	EXP 	Cross: autoDraw = False
+196.3558 	EXP 	polygon_2: autoDraw = False
+196.3558 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+196.3558 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+197.3371 	EXP 	Cross: autoDraw = True
+197.5368 	EXP 	Cross: autoDraw = False
+198.1535 	EXP 	polygon_2: autoDraw = True
+198.4724 	EXP 	New trial (rep=58, index=0): None
+198.4740 	DATA 	Keypress: j
+198.4876 	EXP 	Cross: autoDraw = False
+198.4876 	EXP 	polygon_2: autoDraw = False
+198.4876 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+198.4876 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+199.4704 	EXP 	Cross: autoDraw = True
+199.6703 	EXP 	Cross: autoDraw = False
+200.3706 	EXP 	polygon_2: autoDraw = True
+200.6556 	EXP 	New trial (rep=59, index=0): None
+200.6571 	DATA 	Keypress: j
+200.6710 	EXP 	Cross: autoDraw = False
+200.6710 	EXP 	polygon_2: autoDraw = False
+200.6710 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+200.6710 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+201.6533 	EXP 	Cross: autoDraw = True
+201.8535 	EXP 	Cross: autoDraw = False
+202.1699 	EXP 	polygon_2: autoDraw = True
+202.6054 	EXP 	New trial (rep=60, index=0): None
+202.6072 	DATA 	Keypress: f
+202.6209 	EXP 	Cross: autoDraw = False
+202.6209 	EXP 	polygon_2: autoDraw = False
+202.6209 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+202.6209 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+203.6032 	EXP 	Cross: autoDraw = True
+203.8035 	EXP 	Cross: autoDraw = False
+204.2032 	EXP 	polygon_2: autoDraw = True
+204.6718 	EXP 	New trial (rep=61, index=0): None
+204.6735 	DATA 	Keypress: j
+204.6872 	EXP 	Cross: autoDraw = False
+204.6872 	EXP 	polygon_2: autoDraw = False
+204.6872 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+204.6872 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+205.6700 	EXP 	Cross: autoDraw = True
+205.8698 	EXP 	Cross: autoDraw = False
+206.4864 	EXP 	polygon_2: autoDraw = True
+206.8890 	EXP 	New trial (rep=62, index=0): None
+206.8906 	DATA 	Keypress: f
+206.8915 	DATA 	Keypress: e
+206.9050 	EXP 	Cross: autoDraw = False
+206.9050 	EXP 	polygon_2: autoDraw = False
+206.9050 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+206.9050 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+207.8864 	EXP 	Cross: autoDraw = True
+208.0862 	EXP 	Cross: autoDraw = False
+208.7198 	EXP 	polygon_2: autoDraw = True
+209.0386 	EXP 	New trial (rep=63, index=0): None
+209.0402 	DATA 	Keypress: j
+209.0542 	EXP 	Cross: autoDraw = False
+209.0542 	EXP 	polygon_2: autoDraw = False
+209.0542 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+209.0542 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+210.0367 	EXP 	Cross: autoDraw = True
+210.2364 	EXP 	Cross: autoDraw = False
+210.5697 	EXP 	polygon_2: autoDraw = True
+210.9897 	EXP 	New trial (rep=64, index=0): None
+210.9919 	DATA 	Keypress: j
+211.0055 	EXP 	Cross: autoDraw = False
+211.0055 	EXP 	polygon_2: autoDraw = False
+211.0055 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+211.0055 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+211.9863 	EXP 	Cross: autoDraw = True
+212.1864 	EXP 	Cross: autoDraw = False
+212.9368 	EXP 	polygon_2: autoDraw = True
+213.2886 	EXP 	New trial (rep=65, index=0): None
+213.2902 	DATA 	Keypress: j
+213.3042 	EXP 	Cross: autoDraw = False
+213.3042 	EXP 	polygon_2: autoDraw = False
+213.3042 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+213.3042 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+214.2867 	EXP 	Cross: autoDraw = True
+214.4862 	EXP 	Cross: autoDraw = False
+215.1529 	EXP 	polygon_2: autoDraw = True
+215.5383 	EXP 	New trial (rep=66, index=0): None
+215.5401 	DATA 	Keypress: f
+215.5537 	EXP 	Cross: autoDraw = False
+215.5537 	EXP 	polygon_2: autoDraw = False
+215.5537 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+215.5537 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+216.5367 	EXP 	Cross: autoDraw = True
+216.7366 	EXP 	Cross: autoDraw = False
+217.2027 	EXP 	polygon_2: autoDraw = True
+217.6051 	EXP 	New trial (rep=67, index=0): None
+217.6069 	DATA 	Keypress: j
+217.6207 	EXP 	Cross: autoDraw = False
+217.6207 	EXP 	polygon_2: autoDraw = False
+217.6207 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+217.6207 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+218.6028 	EXP 	Cross: autoDraw = True
+218.8033 	EXP 	Cross: autoDraw = False
+219.1028 	EXP 	polygon_2: autoDraw = True
+219.5554 	EXP 	New trial (rep=68, index=0): None
+219.5572 	DATA 	Keypress: f
+219.5709 	EXP 	Cross: autoDraw = False
+219.5709 	EXP 	polygon_2: autoDraw = False
+219.5709 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+219.5709 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+220.5531 	EXP 	Cross: autoDraw = True
+220.7532 	EXP 	Cross: autoDraw = False
+221.4529 	EXP 	polygon_2: autoDraw = True
+221.8717 	EXP 	New trial (rep=69, index=0): None
+221.8735 	DATA 	Keypress: f
+221.8873 	EXP 	Cross: autoDraw = False
+221.8873 	EXP 	polygon_2: autoDraw = False
+221.8873 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+221.8873 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+222.8696 	EXP 	Cross: autoDraw = True
+223.0694 	EXP 	Cross: autoDraw = False
+223.8030 	EXP 	polygon_2: autoDraw = True
+224.2385 	EXP 	New trial (rep=70, index=0): None
+224.2402 	DATA 	Keypress: j
+224.2541 	EXP 	Cross: autoDraw = False
+224.2541 	EXP 	polygon_2: autoDraw = False
+224.2541 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+224.2541 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+225.2359 	EXP 	Cross: autoDraw = True
+225.4360 	EXP 	Cross: autoDraw = False
+226.1698 	EXP 	polygon_2: autoDraw = True
+226.6048 	EXP 	New trial (rep=71, index=0): None
+226.6065 	DATA 	Keypress: f
+226.6204 	EXP 	Cross: autoDraw = False
+226.6204 	EXP 	polygon_2: autoDraw = False
+226.6204 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+226.6204 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+227.6027 	EXP 	Cross: autoDraw = True
+227.8026 	EXP 	Cross: autoDraw = False
+228.1526 	EXP 	polygon_2: autoDraw = True
+228.4553 	EXP 	New trial (rep=72, index=0): None
+228.4571 	DATA 	Keypress: f
+228.4709 	EXP 	Cross: autoDraw = False
+228.4709 	EXP 	polygon_2: autoDraw = False
+228.4709 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+228.4709 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+229.4524 	EXP 	Cross: autoDraw = True
+229.6525 	EXP 	Cross: autoDraw = False
+230.2529 	EXP 	polygon_2: autoDraw = True
+230.6210 	EXP 	New trial (rep=73, index=0): None
+230.6226 	DATA 	Keypress: j
+230.6365 	EXP 	Cross: autoDraw = False
+230.6365 	EXP 	polygon_2: autoDraw = False
+230.6365 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+230.6365 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+231.6194 	EXP 	Cross: autoDraw = True
+231.8194 	EXP 	Cross: autoDraw = False
+232.2359 	EXP 	polygon_2: autoDraw = True
+232.5223 	EXP 	New trial (rep=74, index=0): None
+232.5243 	DATA 	Keypress: j
+232.5382 	EXP 	Cross: autoDraw = False
+232.5382 	EXP 	polygon_2: autoDraw = False
+232.5382 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+232.5382 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+233.5191 	EXP 	Cross: autoDraw = True
+233.7192 	EXP 	Cross: autoDraw = False
+234.4357 	EXP 	polygon_2: autoDraw = True
+234.7883 	EXP 	New trial (rep=75, index=0): None
+234.7899 	DATA 	Keypress: j
+234.8039 	EXP 	Cross: autoDraw = False
+234.8039 	EXP 	polygon_2: autoDraw = False
+234.8039 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+234.8039 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+235.7857 	EXP 	Cross: autoDraw = True
+235.9858 	EXP 	Cross: autoDraw = False
+236.6360 	EXP 	polygon_2: autoDraw = True
+237.2389 	EXP 	New trial (rep=76, index=0): None
+237.2413 	DATA 	Keypress: f
+237.2550 	EXP 	Cross: autoDraw = False
+237.2550 	EXP 	polygon_2: autoDraw = False
+237.2550 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+237.2550 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+238.2357 	EXP 	Cross: autoDraw = True
+238.4356 	EXP 	Cross: autoDraw = False
+238.9187 	EXP 	polygon_2: autoDraw = True
+239.2544 	EXP 	New trial (rep=77, index=0): None
+239.2562 	DATA 	Keypress: f
+239.2699 	EXP 	Cross: autoDraw = False
+239.2699 	EXP 	polygon_2: autoDraw = False
+239.2699 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+239.2699 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+240.2525 	EXP 	Cross: autoDraw = True
+240.4523 	EXP 	Cross: autoDraw = False
+241.0854 	EXP 	polygon_2: autoDraw = True
+241.4384 	EXP 	New trial (rep=78, index=0): None
+241.4404 	DATA 	Keypress: f
+241.4543 	EXP 	Cross: autoDraw = False
+241.4543 	EXP 	polygon_2: autoDraw = False
+241.4543 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+241.4543 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+242.4355 	EXP 	Cross: autoDraw = True
+242.6355 	EXP 	Cross: autoDraw = False
+243.1693 	EXP 	polygon_2: autoDraw = True
+243.5208 	EXP 	New trial (rep=79, index=0): None
+243.5224 	DATA 	Keypress: j
+243.5362 	EXP 	Cross: autoDraw = False
+243.5362 	EXP 	polygon_2: autoDraw = False
+243.5362 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+243.5362 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+244.5191 	EXP 	Cross: autoDraw = True
+244.7192 	EXP 	Cross: autoDraw = False
+245.0525 	EXP 	polygon_2: autoDraw = True
+245.3712 	EXP 	New trial (rep=80, index=0): None
+245.3731 	DATA 	Keypress: j
+245.3873 	EXP 	Cross: autoDraw = False
+245.3873 	EXP 	polygon_2: autoDraw = False
+245.3873 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+245.3873 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+246.3686 	EXP 	Cross: autoDraw = True
+246.5686 	EXP 	Cross: autoDraw = False
+247.0525 	EXP 	polygon_2: autoDraw = True
+247.3874 	EXP 	New trial (rep=81, index=0): None
+247.3892 	DATA 	Keypress: j
+247.4031 	EXP 	Cross: autoDraw = False
+247.4031 	EXP 	polygon_2: autoDraw = False
+247.4031 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+247.4031 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+248.3853 	EXP 	Cross: autoDraw = True
+248.5854 	EXP 	Cross: autoDraw = False
+249.1022 	EXP 	polygon_2: autoDraw = True
+249.5721 	EXP 	New trial (rep=82, index=0): None
+249.5742 	DATA 	Keypress: j
+249.5879 	EXP 	Cross: autoDraw = False
+249.5879 	EXP 	polygon_2: autoDraw = False
+249.5879 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+249.5879 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+250.5686 	EXP 	Cross: autoDraw = True
+250.7686 	EXP 	Cross: autoDraw = False
+251.4023 	EXP 	polygon_2: autoDraw = True
+251.7548 	EXP 	New trial (rep=83, index=0): None
+251.7568 	DATA 	Keypress: j
+251.7704 	EXP 	Cross: autoDraw = False
+251.7704 	EXP 	polygon_2: autoDraw = False
+251.7704 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+251.7704 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+252.7517 	EXP 	Cross: autoDraw = True
+252.9519 	EXP 	Cross: autoDraw = False
+253.4184 	EXP 	polygon_2: autoDraw = True
+253.7379 	EXP 	New trial (rep=84, index=0): None
+253.7396 	DATA 	Keypress: j
+253.7533 	EXP 	Cross: autoDraw = False
+253.7533 	EXP 	polygon_2: autoDraw = False
+253.7533 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+253.7533 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+254.7355 	EXP 	Cross: autoDraw = True
+254.9355 	EXP 	Cross: autoDraw = False
+255.6850 	EXP 	polygon_2: autoDraw = True
+255.9880 	EXP 	New trial (rep=85, index=0): None
+255.9900 	DATA 	Keypress: j
+256.0038 	EXP 	Cross: autoDraw = False
+256.0038 	EXP 	polygon_2: autoDraw = False
+256.0038 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+256.0038 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+256.9852 	EXP 	Cross: autoDraw = True
+257.1854 	EXP 	Cross: autoDraw = False
+257.7017 	EXP 	polygon_2: autoDraw = True
+258.2214 	EXP 	New trial (rep=86, index=0): None
+258.2230 	DATA 	Keypress: f
+258.2369 	EXP 	Cross: autoDraw = False
+258.2369 	EXP 	polygon_2: autoDraw = False
+258.2369 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+258.2369 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+259.2188 	EXP 	Cross: autoDraw = True
+259.4182 	EXP 	Cross: autoDraw = False
+260.1015 	EXP 	polygon_2: autoDraw = True
+260.7207 	EXP 	New trial (rep=87, index=0): None
+260.7226 	DATA 	Keypress: j
+260.7362 	EXP 	Cross: autoDraw = False
+260.7362 	EXP 	polygon_2: autoDraw = False
+260.7362 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+260.7362 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+261.7188 	EXP 	Cross: autoDraw = True
+261.9183 	EXP 	Cross: autoDraw = False
+262.5349 	EXP 	polygon_2: autoDraw = True
+262.9041 	EXP 	New trial (rep=88, index=0): None
+262.9057 	DATA 	Keypress: f
+262.9196 	EXP 	Cross: autoDraw = False
+262.9196 	EXP 	polygon_2: autoDraw = False
+262.9196 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+262.9196 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+263.9015 	EXP 	Cross: autoDraw = True
+264.1018 	EXP 	Cross: autoDraw = False
+264.4515 	EXP 	polygon_2: autoDraw = True
+264.7546 	EXP 	New trial (rep=89, index=0): None
+264.7568 	DATA 	Keypress: f
+264.7705 	EXP 	Cross: autoDraw = False
+264.7705 	EXP 	polygon_2: autoDraw = False
+264.7705 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+264.7705 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+265.7513 	EXP 	Cross: autoDraw = True
+265.9515 	EXP 	Cross: autoDraw = False
+266.7518 	EXP 	polygon_2: autoDraw = True
+267.1036 	EXP 	New trial (rep=90, index=0): None
+267.1053 	DATA 	Keypress: f
+267.1190 	EXP 	Cross: autoDraw = False
+267.1190 	EXP 	polygon_2: autoDraw = False
+267.1190 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+267.1190 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+268.1016 	EXP 	Cross: autoDraw = True
+268.3016 	EXP 	Cross: autoDraw = False
+268.8350 	EXP 	polygon_2: autoDraw = True
+269.2535 	EXP 	New trial (rep=91, index=0): None
+269.2554 	DATA 	Keypress: j
+269.2691 	EXP 	Cross: autoDraw = False
+269.2691 	EXP 	polygon_2: autoDraw = False
+269.2691 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+269.2691 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+270.2517 	EXP 	Cross: autoDraw = True
+270.4515 	EXP 	Cross: autoDraw = False
+270.9017 	EXP 	polygon_2: autoDraw = True
+271.3040 	EXP 	New trial (rep=92, index=0): None
+271.3060 	DATA 	Keypress: f
+271.3199 	EXP 	Cross: autoDraw = False
+271.3199 	EXP 	polygon_2: autoDraw = False
+271.3199 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+271.3199 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+272.3013 	EXP 	Cross: autoDraw = True
+272.5013 	EXP 	Cross: autoDraw = False
+272.9680 	EXP 	polygon_2: autoDraw = True
+273.4037 	EXP 	New trial (rep=93, index=0): None
+273.4056 	DATA 	Keypress: j
+273.4194 	EXP 	Cross: autoDraw = False
+273.4194 	EXP 	polygon_2: autoDraw = False
+273.4194 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+273.4194 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+274.4015 	EXP 	Cross: autoDraw = True
+274.6009 	EXP 	Cross: autoDraw = False
+275.0846 	EXP 	polygon_2: autoDraw = True
+275.5366 	EXP 	New trial (rep=94, index=0): None
+275.5382 	DATA 	Keypress: j
+275.5522 	EXP 	Cross: autoDraw = False
+275.5522 	EXP 	polygon_2: autoDraw = False
+275.5522 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+275.5522 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+276.5344 	EXP 	Cross: autoDraw = True
+276.7347 	EXP 	Cross: autoDraw = False
+277.3512 	EXP 	polygon_2: autoDraw = True
+277.7046 	EXP 	New trial (rep=95, index=0): None
+277.7063 	DATA 	Keypress: j
+277.7202 	EXP 	Cross: autoDraw = False
+277.7202 	EXP 	polygon_2: autoDraw = False
+277.7202 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+277.7202 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+278.7011 	EXP 	Cross: autoDraw = True
+278.9013 	EXP 	Cross: autoDraw = False
+279.3183 	EXP 	polygon_2: autoDraw = True
+279.8197 	EXP 	New trial (rep=96, index=0): None
+279.8213 	DATA 	Keypress: f
+279.8387 	EXP 	Cross: autoDraw = False
+279.8387 	EXP 	polygon_2: autoDraw = False
+279.8387 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+279.8387 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+280.8179 	EXP 	Cross: autoDraw = True
+281.0176 	EXP 	Cross: autoDraw = False
+281.3683 	EXP 	polygon_2: autoDraw = True
+281.8033 	EXP 	New trial (rep=97, index=0): None
+281.8052 	DATA 	Keypress: f
+281.8190 	EXP 	Cross: autoDraw = False
+281.8190 	EXP 	polygon_2: autoDraw = False
+281.8190 	EXP 	polygon_2: fillColor = '[  0. 255.   0.] (rgb255)'
+281.8190 	EXP 	polygon_2: lineColor = '[  0. 255.   0.] (rgb255)'
+282.8014 	EXP 	Cross: autoDraw = True
+283.0015 	EXP 	Cross: autoDraw = False
+283.6009 	EXP 	polygon_2: autoDraw = True
+283.9700 	EXP 	New trial (rep=98, index=0): None
+283.9715 	DATA 	Keypress: j
+283.9855 	EXP 	Cross: autoDraw = False
+283.9855 	EXP 	polygon_2: autoDraw = False
+283.9855 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+283.9855 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+284.9674 	EXP 	Cross: autoDraw = True
+285.1677 	EXP 	Cross: autoDraw = False
+285.4841 	EXP 	polygon_2: autoDraw = True
+285.8865 	EXP 	New trial (rep=99, index=0): None
+285.8882 	DATA 	Keypress: f
+285.9021 	EXP 	Cross: autoDraw = False
+285.9021 	EXP 	polygon_2: autoDraw = False
+285.9021 	EXP 	polygon_2: fillColor = '[255. 255.   0.] (rgb255)'
+285.9021 	EXP 	polygon_2: lineColor = '[255. 255.   0.] (rgb255)'
+286.8846 	EXP 	Cross: autoDraw = True
+287.0842 	EXP 	Cross: autoDraw = False
+287.8675 	EXP 	polygon_2: autoDraw = True
+288.2506 	DATA 	Keypress: f
+288.2675 	EXP 	Cross: autoDraw = False
+288.2675 	EXP 	polygon_2: autoDraw = False
+288.2675 	EXP 	thanksText: autoDraw = True
+290.2508 	EXP 	thanksText: autoDraw = False
+290.5290 	EXP 	window1: mouseVisible = True
